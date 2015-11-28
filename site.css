@@ -1,4 +1,149 @@
-body {
-  background-color: black;
-  color: white;
+
+body {   
+background-color: #8585ad;
+font-family: 'Tangerine', serif;
+/*background: url(http://subtlepatterns.com/patterns/symphony.png);*/
+background:url('images/b10.png');
+ 
+  /* background: url(http://breakoutaudiovisual.com/wp-content/uploads/2014/03/Basic-Black-Background.jpg)*/
+ 
+ color:whitesmoke; 
 }
+header {
+	height:40px;
+	position:fixed;
+	background:#8585ad;
+	width:100%;
+	top:0;
+	left:0;
+	right:0;
+}
+.header-div {
+	height:40px;		
+	top:0;
+	
+}
+.title {
+	float:left;
+	margin-left:5%;
+	
+}
+	.title p {
+		font-size:1.5em;
+		font-weight:bold;
+		margin-top:0px;
+	}
+.menu {
+	float:right;
+	margin-right:10%;
+}
+
+.menu ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+	.menu ul li {
+		float:left;
+		margin-top:5px;
+	}
+	.menu ul li a {
+		margin-right:10px;
+		margin-left:10px;
+		text-decoration:none;
+		
+	}
+.quote{
+		background-color:#8585ad;
+		font-family: 'Cardo', serif;		
+		width: 400px;
+		height: auto;
+		margin:35px;		
+		padding: 20px;
+		text-align: center;
+		border-radius: 20px;		
+		box-shadow: -10px 10px 20px rgba(100,100,100,.8);
+		color:white;
+		float:right;
+}
+
+.quote p{
+	font-size:1.5em;
+	margin-top:-13px;
+}
+.saying
+{
+	font-size: 1em;
+}
+.author
+{
+	 font-style: italic;
+	 
+}
+
+#About div{
+	background-color:#99bbff;
+	height:300px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+#About img {
+	width: 270px; 
+		height: 360px;
+		border:10px solid #c3e1f9;
+		border-radius:10px;
+}
+#Resume div{
+	background-color:#99bbff;
+	height:300px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+#Portfolio div{
+	background-color:#99bbff;
+	height:300px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+#Contact div{
+	background-color:#99bbff;
+	height:300px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.socialmedia {
+	height:32px;
+	width:32px;
+}
+footer {
+	/*position:fixed;*/
+	height:60px;
+	background:#8585ad;
+	width:100%;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.footerSection {
+	float:left;
+	margin-left:5%;
+}
+
+.social {
+	float:right;
+	margin-right:10%;
+	
+	
+}
+
+	.social a {
+align-content:center;
+vertical-align:middle;
+	}
+
+.social a img{
+		margin-right:10px;
+		margin-left:10px;
+		margin-top:10px;		
+	}
